@@ -1,0 +1,25 @@
+1. 路径访问
+cd /ubox
+cd apps
+cd ../ 回到上一级
+
+2. ls 显示列表
+
+3. rm style.css 删除文件
+
+4. mkdir test 在当前目录创建文件夹test
+
+5. 将文件从一个目录复制到另一个目录，如果已经存在该文件则覆盖 
+cp -r /tmp/style.css /ubox/apps/fan/public/style 
+
+6. 同一目录复制文件
+cp -r style.css style_bak.css
+
+7. vi fan.php 
+    i : 编辑文件
+    w: 保存修改
+    q: 退出
+
+8. cat access.log | grep "1545"
+9. tail -f access.log | grep "1545"
+10.head access.log 
